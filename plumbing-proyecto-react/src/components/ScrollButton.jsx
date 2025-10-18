@@ -19,13 +19,7 @@ const ScrollButton = () => {
 
     // Detectar en qué sección estamos
     const handleScroll = () => {
-      const sections = [
-        "hero",
-        "services",
-        "about",
-        "gallery",
-        "terms",
-      ];
+      const sections = ["hero", "services", "about", "gallery", "terms"];
       const scrollPosition = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
