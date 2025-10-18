@@ -34,30 +34,42 @@ const Footer = () => {
               <div className="map-container">
                 <div className="map-overlay" id="map-overlay">
                   <div className="map-controls">
-                    <button 
+                    <button
                       className="map-control-btn"
                       onClick={() => {
-                        const overlay = document.getElementById('map-overlay');
-                        const iframe = document.querySelector('.map-container iframe');
-                        overlay.style.display = 'none';
-                        iframe.style.pointerEvents = 'auto';
+                        const overlay = document.getElementById("map-overlay");
+                        const iframe = document.querySelector(
+                          ".map-container iframe"
+                        );
+                        overlay.style.display = "none";
+                        iframe.style.pointerEvents = "auto";
                       }}
                       title="Activar controles del mapa"
                     >
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                       </svg>
                       Activar Mapa
                     </button>
-                    <a 
+                    <a
                       href="https://www.google.com/maps/search/plomeria+guadalajara+jalisco/@20.6756096,-103.3565029,12z"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="map-control-btn map-external-btn"
                       title="Abrir en Google Maps"
                     >
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
                       </svg>
                       Abrir en Google Maps
                     </a>

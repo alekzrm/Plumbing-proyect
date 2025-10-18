@@ -1327,7 +1327,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(17, 125, 212, 0.9), rgba(17, 125, 212, 0.7));
+  background: linear-gradient(
+    135deg,
+    rgba(17, 125, 212, 0.9),
+    rgba(17, 125, 212, 0.7)
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1399,7 +1403,7 @@ body {
   .map-container iframe {
     height: 180px;
   }
-  
+
   /* Show overlay only on mobile */
   .map-overlay {
     display: flex;
@@ -1411,7 +1415,7 @@ body {
   .map-overlay {
     display: none !important;
   }
-  
+
   .map-container iframe {
     pointer-events: auto !important;
   }
@@ -1433,7 +1437,7 @@ body {
     padding-top: 4rem !important; /* Compensate for fixed header height */
     min-height: calc(60vh + 4rem) !important;
   }
-  
+
   .hero-overlay {
     padding-top: 1rem;
   }
