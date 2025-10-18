@@ -1273,3 +1273,66 @@ body {
     right: 1.5rem;
   }
 }
+
+/* Service Area Map Styles */
+.service-area-map {
+  margin-top: 1.5rem;
+}
+
+.map-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f3f4f6;
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.map-container iframe:hover {
+  opacity: 0.95;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-contact {
+    order: 1;
+  }
+
+  .footer-policies {
+    order: 2;
+  }
+
+  .service-area-map {
+    margin-top: 1rem;
+  }
+
+  .map-container iframe {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container iframe {
+    height: 160px;
+  }
+
+  .map-title {
+    font-size: 0.9rem;
+  }
+}

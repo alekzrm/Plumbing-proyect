@@ -24,9 +24,26 @@ const Footer = () => {
                 <strong>Email:</strong> alex.j@plumbingsolutions.com
               </li>
               <li>
-                <strong>Área de Servicio:</strong> Metropolitan Area
+                <strong>Área de Servicio:</strong> Guadalajara, Jalisco
               </li>
             </ul>
+
+            {/* Mapa del área de servicio */}
+            <div className="service-area-map">
+              <h4 className="map-title">Nuestra Zona de Servicio</h4>
+              <div className="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21116.19827770928!2d-103.35650295012897!3d20.675609584590863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1760811010378!5m2!1ses-419!2smx"
+                  width="100%"
+                  height="200"
+                  style={{ border: 0, borderRadius: "8px" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Área de servicio - Guadalajara, Jalisco"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="footer-policies">

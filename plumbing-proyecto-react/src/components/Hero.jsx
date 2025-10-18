@@ -22,14 +22,17 @@ const Hero = () => {
     >
       <div className="hero-overlay">
         <div className="hero-container">
-          <h1 className="hero-title">Your Trusted Plumbing Experts</h1>
+          <h1 className="hero-title">
+            Expertos en Plomería: Su Opción de Confianza
+          </h1>
           <p className="hero-description">
-            Providing reliable and efficient plumbing services for residential
-            and commercial clients. Contact us today for a free consultation.
+            Ofrecemos servicios de plomería confiables y eficientes para
+            clientes residenciales y comerciales. Contáctenos hoy para una
+            consulta gratuita.
           </p>
           <div className="hero-cta">
             <button className="btn-primary" onClick={handleGetQuote}>
-              <span className="truncate">Get a Quote</span>
+              <span className="truncate">Solicitar Cotización</span>
             </button>
           </div>
         </div>

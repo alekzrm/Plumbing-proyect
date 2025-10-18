@@ -11,7 +11,7 @@ const About = () => {
       style={{ backgroundColor: "var(--background-light)" }}
     >
       <div className="section-content">
-        <h2 className="section-title">About Us</h2>
+        <h2 className="section-title">Acerca de Nosotros</h2>
         <div className="about-container">
           <div className="about-image">
             <div
@@ -22,14 +22,15 @@ const About = () => {
             />
           </div>
           <div className="about-content">
-            <h3 className="about-title">Meet Alex Johnson</h3>
+            <h3 className="about-title">Conozca a Alex Johnson</h3>
             <p className="about-description">
-              With over 15 years of experience, Alex Johnson is a licensed and
-              insured plumbing professional dedicated to providing top-quality
-              service and customer satisfaction. Alex's expertise covers a wide
-              range of plumbing solutions, from routine maintenance to complex
-              installations, ensuring your plumbing needs are met with precision
-              and care.
+              Con más de 15 años de experiencia, Alex Johnson es un profesional
+              de la plomería certificado y asegurado, dedicado a proporcionar un
+              servicio de la más alta calidad y a garantizar la satisfacción del
+              cliente. La pericia de Alex abarca una amplia gama de soluciones
+              de plomería, desde el mantenimiento de rutina hasta instalaciones
+              complejas, asegurando que sus necesidades sean atendidas con
+              precisión y esmero.
             </p>
           </div>
         </div>

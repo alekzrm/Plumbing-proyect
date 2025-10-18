@@ -14,7 +14,7 @@ const ServiceCard = ({ icon, title }) => (
 const Services = () => {
   const services = [
     {
-      title: "Repairs",
+      title: "Reparaciones",
       icon: (
         <svg
           fill="currentColor"
@@ -28,7 +28,7 @@ const Services = () => {
       ),
     },
     {
-      title: "Installations",
+      title: "Instalaciones",
       icon: (
         <svg
           fill="currentColor"
@@ -42,7 +42,7 @@ const Services = () => {
       ),
     },
     {
-      title: "Maintenance",
+      title: "Mantenimiento",
       icon: (
         <svg
           fill="currentColor"
@@ -56,7 +56,7 @@ const Services = () => {
       ),
     },
     {
-      title: "Heating",
+      title: "Calefacción",
       icon: (
         <svg
           fill="currentColor"
@@ -70,7 +70,7 @@ const Services = () => {
       ),
     },
     {
-      title: "Drainage",
+      title: "Drenaje",
       icon: (
         <svg
           fill="currentColor"
@@ -84,7 +84,7 @@ const Services = () => {
       ),
     },
     {
-      title: "Emergency",
+      title: "Emergencias",
       icon: (
         <svg
           fill="currentColor"

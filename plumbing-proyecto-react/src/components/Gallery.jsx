@@ -32,7 +32,7 @@ const Gallery = () => {
     {
       title: "Reparación de Tubería",
       description:
-        "Fixed a major leak under the sink, preventing water damage.",
+        "Se reparó una fuga importante debajo del fregadero, evitando así daños por agua.",
       beforeImage:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuA83xzn356PAVA7cstXu-XtJols9bgR_3al4FcYtc2J6-gub9AZs8LW2CYcnk1sXbGU6lYiRtqPXGjSAjDlEnL1ggEaSDY5fykxTY_XYYoBRNMsvyKPegmStuq4NA4UFpy61igiZo6fpbGPgIlTpM6neoEu7JL-wBJyK7w6fKhEbaGXhk04zBnL6K5JobIk9wWrSDM4CN14I0JKh52kWreXp8MFW2LMvYsK45ylSVvDSpU7ms0uBoqm7xaI3hYjvqORBzqb1-pJepRs",
       afterImage:
@@ -40,7 +40,8 @@ const Gallery = () => {
     },
     {
       title: "Instalación de Calentador",
-      description: "Upgraded an old unit to a new, energy-efficient model.",
+      description:
+        "Se actualizó una unidad antigua a un nuevo modelo eficiente en energía.",
       beforeImage:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuA-xuOtlBx-Q8oREuDUTW4W75nmXFisqsqtw3XnRiIXRFi3FHvskdgxSAwG1N_98Id5p15bk-GhUNyzJj2Mesea0vBs1yVLJHGaRb1Kg4foKOtWxsIjzRG64NeCd_Kron8AQ9afmDpViiaLom7oe3b5LM8-wX7vSn08EWDO37xfuxGO5geZk4cagSNNjagl9itbIvB0tin9Sfd0dTJvtLnvslfMUStJYwFaTzRHB5t4Rg6ooAMKmRJPdsxZauKVQf8cltzv2CHPQhpz",
       afterImage:
@@ -49,7 +50,7 @@ const Gallery = () => {
     {
       title: "Limpieza de Drenaje",
       description:
-        "Cleared a severely clogged shower drain, restoring full flow.",
+        "Se limpió un desagüe de ducha severamente obstruido, restaurando el flujo completo.",
       beforeImage:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuDR9sfhAOaU6l6PodUjd8vkKGkSLNlksiOWn4JTusrE34SW9ffruZHAL7C0Zk1gp_E3bn38ezLExZXWZlUbNAv0ypq1b5tQR7inrroBs8UwnAVB1hja3gv61wME074srowj0jKwhu5kBgPPRlpsqed8GABo6EeBizF95w-NLe8tnAwnecF6w7bP8uUHxUxEALKu_x4elcmAo83pd_AlYzUS9lvhvPtlXgp_e3B-y_gMTdCOgiB7dCg5l1Ryx-MxG0_XVTbYskIC51nn",
       afterImage:
@@ -58,7 +59,7 @@ const Gallery = () => {
     {
       title: "Instalación de Grifo",
       description:
-        "Replaced an old faucet with a stylish and functional new one.",
+        "Se reemplazó un grifo antiguo por uno nuevo, elegante y funcional.",
       beforeImage:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuBoJ0tILErOu3xwCiXc1evQIlTyozVI4ndWC4nzTHpY_ySL3Qszwdtm75K0Fx4RF4j8jYNXS13cR4AwnI-rdT2GXkREi19_YFZwAlnsGM5QsCSuo8kj9j4Dv5ySCLZGhqQQLERhN1a-gAbVCUSI1zCfP6s6ihBOABozeJUxURbkT1Elc7LvKvOdFGLLEdPnsV5bbqGn1tu67Y98uRmiJJtlKnvcEbWqhyjr2nfKbDAV_QiIDQ7g_PcBQiD4wZFxXIciEVRANK0KSKMC",
       afterImage:
@@ -71,8 +72,9 @@ const Gallery = () => {
       <div className="section-content">
         <h2 className="section-title">Trabajos Realizados</h2>
         <p className="gallery-description">
-          Here's a glimpse of our quality workmanship. We take pride in
-          transforming plumbing problems into reliable solutions.
+          A continuación, una muestra de la calidad de nuestro trabajo. Nos
+          enorgullecemos de transformar los problemas de plomería en soluciones
+          confiables y duraderas.
         </p>
         <div className="gallery-grid">
           {projects.map((project, index) => (

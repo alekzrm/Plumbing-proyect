@@ -51,16 +51,16 @@ const Header = () => {
             className="nav-link"
             onClick={() => handleNavClick("services")}
           >
-            Services
+            Servicios
           </button>
           <button className="nav-link" onClick={() => handleNavClick("about")}>
-            About
+            Acerca de
           </button>
           <button
             className="nav-link"
             onClick={() => handleNavClick("gallery")}
           >
-            Gallery
+            Galería
           </button>
           <button className="nav-link" onClick={() => handleNavClick("terms")}>
             Términos y Condiciones
