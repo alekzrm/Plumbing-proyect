@@ -102,7 +102,7 @@ const Services = () => {
   return (
     <section className="section-container" id="services">
       <div className="section-content">
-        <h2 className="section-title">Our Services</h2>
+        <h2 className="section-title">Nuestros Servicios</h2>
         <div className="services-grid">
           {services.map((service, index) => (
             <ServiceCard

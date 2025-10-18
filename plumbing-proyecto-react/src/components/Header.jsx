@@ -87,19 +87,19 @@ const Header = () => {
               className="mobile-nav-link"
               onClick={() => handleNavClick("services")}
             >
-              Services
+              Servicios
             </button>
             <button
               className="mobile-nav-link"
               onClick={() => handleNavClick("about")}
             >
-              About
+              Acerca de
             </button>
             <button
               className="mobile-nav-link"
               onClick={() => handleNavClick("gallery")}
             >
-              Gallery
+              Galería
             </button>
             <button
               className="mobile-nav-link"
