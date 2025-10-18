@@ -1,8 +1,8 @@
 /* Importar Tailwind CSS desde CDN */
-@import 'https://cdn.tailwindcss.com';
+@import "https://cdn.tailwindcss.com";
 
 /* Importar Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&display=swap");
 
 /* Variables CSS personalizadas */
 :root {
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   background-color: var(--background-light);
   color: #374151;
   margin: 0;
@@ -429,7 +429,8 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.form-input, .form-textarea {
+.form-input,
+.form-textarea {
   margin-top: 0.25rem;
   display: block;
   width: 100%;
@@ -442,7 +443,8 @@ body {
   box-sizing: border-box;
 }
 
-.form-input:focus, .form-textarea:focus {
+.form-input:focus,
+.form-textarea:focus {
   outline: none;
   border-color: var(--primary-color);
   box-shadow: 0 0 0 3px rgba(17, 125, 212, 0.1);
@@ -982,7 +984,8 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.form-input, .form-textarea {
+.form-input,
+.form-textarea {
   margin-top: 0.25rem;
   display: block;
   width: 100%;
@@ -994,7 +997,8 @@ body {
   font-size: 0.875rem;
 }
 
-.form-input:focus, .form-textarea:focus {
+.form-input:focus,
+.form-textarea:focus {
   outline: none;
   border-color: var(--primary-color);
   box-shadow: 0 0 0 3px rgba(17, 125, 212, 0.1);
@@ -1186,7 +1190,8 @@ body {
   width: 100%;
 }
 
-.mobile-nav-link:hover, .mobile-nav-link:focus {
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
   color: var(--primary-color);
   background-color: rgba(17, 125, 212, 0.1);
 }
