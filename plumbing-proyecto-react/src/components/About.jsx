@@ -22,15 +22,15 @@ const About = () => {
             />
           </div>
           <div className="about-content">
-            <h3 className="about-title">Conozca a Alex Johnson</h3>
+            <h3 className="about-title">Conozca a Ruben Torres Zavala</h3>
             <p className="about-description">
-              Con más de 15 años de experiencia, Alex Johnson es un profesional
-              de la plomería certificado y asegurado, dedicado a proporcionar un
-              servicio de la más alta calidad y a garantizar la satisfacción del
-              cliente. La pericia de Alex abarca una amplia gama de soluciones
-              de plomería, desde el mantenimiento de rutina hasta instalaciones
-              complejas, asegurando que sus necesidades sean atendidas con
-              precisión y esmero.
+              Con más de 15 años de experiencia, Ruben Torres Zavala es un
+              profesional de la plomería certificado y asegurado, dedicado a
+              proporcionar un servicio de la más alta calidad y a garantizar la
+              satisfacción del cliente. La pericia de Ruben abarca una amplia
+              gama de soluciones de plomería, desde el mantenimiento de rutina
+              hasta instalaciones complejas, asegurando que sus necesidades sean
+              atendidas con precisión y esmero.
             </p>
           </div>
         </div>

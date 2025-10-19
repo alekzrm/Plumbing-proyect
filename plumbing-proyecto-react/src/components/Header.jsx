@@ -42,7 +42,7 @@ const Header = () => {
               </defs>
             </svg>
           </div>
-          <h2 className="logo-text">Plumbing Solutions</h2>
+          <h2 className="logo-text">RUBEN TORRES ZAVALA</h2>
         </div>
 
         {/* Desktop Navigation */}
