@@ -8,7 +8,7 @@ const Terms = () => {
       style={{ backgroundColor: "#f9fafb" }}
     >
       <div className="section-content">
-        <h2 className="section-title">Términos y Condiciones Del Servicio</h2>
+        <h2 className="section-title">Términos y Condiciones</h2>
         <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "left" }}>
           <div style={{ marginBottom: "2rem" }}>
             <h3
