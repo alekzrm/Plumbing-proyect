@@ -8,7 +8,7 @@ const Terms = () => {
       style={{ backgroundColor: "#f9fafb" }}
     >
       <div className="section-content">
-        <h2 className="section-title">Términos y Condiciones</h2>
+        <h2 className="section-title">Términos y Condiciones Del Servicio</h2>
         <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "left" }}>
           <div style={{ marginBottom: "2rem" }}>
             <h3
@@ -116,7 +116,7 @@ const Terms = () => {
             </h3>
             <p style={{ color: "#6b7280", lineHeight: "1.6" }}>
               Para cualquier pregunta sobre estos términos y condiciones, por
-              favor contáctenos al +528181254900 o
+              favor contáctenos al 8181254900 o
               ruben.torres@plumbingsolutions.com
             </p>
           </div>

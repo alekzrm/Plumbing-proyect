@@ -18,15 +18,15 @@ const Footer = () => {
                 <strong>Nombre:</strong> Ruben Torres Zavala
               </li>
               <li>
-                <strong>Teléfono:</strong> +523378456754
+                <strong>Teléfono:</strong> 8181254900
               </li>
               <li>
                 <strong>Email:</strong> ruben.torres@plumbingsolutions.com
               </li>
               <li>
                 <strong>Ubicación:</strong> Calle: C SAN CRISTOBAL ECATEPEC 59
-                Colonia: COL TENENCIA MORELOS Código Postal: 58341 Municipio:
-                Morelia
+                <br /> Colonia: COL TENENCIA MORELOS <br /> Código Postal: 58341
+                <br /> Municipio: Morelia
               </li>
             </ul>
           </div>
