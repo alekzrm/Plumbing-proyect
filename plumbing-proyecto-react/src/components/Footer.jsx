@@ -21,9 +21,6 @@ const Footer = () => {
                 <strong>Teléfono:</strong> 8181254900
               </li>
               <li>
-                <strong>Email:</strong> ruben.torres@plumbingsolutions.com
-              </li>
-              <li>
                 <strong>Ubicación:</strong> Calle: C SAN CRISTOBAL ECATEPEC 59
                 <br /> Colonia: COL TENENCIA MORELOS <br /> Código Postal: 58341
                 <br /> Municipio: Morelia

@@ -116,8 +116,7 @@ const Terms = () => {
             </h3>
             <p style={{ color: "#6b7280", lineHeight: "1.6" }}>
               Para cualquier pregunta sobre estos términos y condiciones, por
-              favor contáctenos al 8181254900 o
-              ruben.torres@plumbingsolutions.com
+              favor contáctenos al 8181254900.
             </p>
           </div>
         </div>
